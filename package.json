@@ -1,5 +1,5 @@
 {
-  "name": "codeassist",
+  "name": "@codeassist/root",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
