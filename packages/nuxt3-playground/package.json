@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "nuxt3": "3.0.0-27288761.d3fb512"
+  },
+  "dependencies": {
+    "@codeassist/nuxt": "^0.0.1"
   }
 }

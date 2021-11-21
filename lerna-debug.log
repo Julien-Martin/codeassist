@@ -1,0 +1,16 @@
+0 silly argv { _: [ 'bootstrap' ], lernaVersion: '4.0.0', '$0': 'lerna' }
+1 notice cli v4.0.0
+2 verbose rootPath /home/julien/Projects/codeassist
+3 error JSONError: Unexpected token "}" (0x7D) in JSON at position 897 while parsing near "...uild\": \"unbuild\",\n  },\n  \"dependencies\":..." in packages/nuxt/package.json
+3 error
+3 error [0m [90m 41 |[39m   [32m"scripts"[39m[33m:[39m {[0m
+3 error [0m [90m 42 |[39m     [32m"build"[39m[33m:[39m [32m"unbuild"[39m[33m,[39m[0m
+3 error [0m[31m[1m>[22m[39m[90m 43 |[39m   }[33m,[39m[0m
+3 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+3 error [0m [90m 44 |[39m   [32m"dependencies"[39m[33m:[39m {[0m
+3 error [0m [90m 45 |[39m     [32m"vue-demi"[39m[33m:[39m [32m"*"[39m[0m
+3 error [0m [90m 46 |[39m   }[33m,[39m[0m
+3 error
+3 error     at parseJson (/home/julien/Projects/codeassist/node_modules/parse-json/index.js:29:21)
+3 error     at parse (/home/julien/Projects/codeassist/node_modules/load-json-file/index.js:15:9)
+3 error     at module.exports (/home/julien/Projects/codeassist/node_modules/load-json-file/index.js:18:47)

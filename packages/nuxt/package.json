@@ -1,0 +1,54 @@
+{
+  "name": "@codeassist/nuxt",
+  "version": "0.0.1",
+  "description": "Nuxt Module for codeassist",
+  "keywords": [
+    "vue",
+    "debug",
+    "devtools",
+    "nuxt",
+    "codeassist"
+  ],
+  "homepage": "https://github.com/Julien-Martin/codeassist",
+  "bugs": {
+    "url": "https://github.com/Julien-Martin/codeassist/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julien-Martin/codeassist.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Julien Martin",
+    "email": "julienmartin@codeassist.io"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./module.cjs"
+    },
+    "./dist/*": "./dist/*"
+  },
+  "main": "./module.cjs",
+  "types": "./dist/module.d.ts",
+  "files": [
+    "module.cjs",
+    "dist/*.js",
+    "dist/*.mjs",
+    "dist/*.d.ts"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "dependencies": {
+    "vue-demi": "*"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "unbuild": "^0.5.11"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
