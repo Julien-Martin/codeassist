@@ -1,12 +1,12 @@
 {
   "include": [
-    "packages/devtools/src/global.d.ts",
+    "packages/codeassist/src/global.d.ts",
     "packages/*/src/**/*.ts",
     "packages/*/__tests__/**/*.ts"
   ],
   "exclude": [
     "packages/test-vue-2",
-    "packages/devtools/__tests__/test-utils.ts"
+    "packages/codeassist/__tests__/test-utils.ts"
   ],
   "compilerOptions": {
     "baseUrl": ".",
@@ -16,7 +16,7 @@
     "noEmit": true,
     "paths": {
       "@codeassist/*": ["packages/*/src"],
-      "devtools": ["packages/devtools/src"]
+      "codeassist": ["packages/codeassist/src"]
     },
 
     "target": "esnext",
