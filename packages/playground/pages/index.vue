@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent, ref } from '@nuxtjs/composition-api'
+  import { ref, defineComponent } from '#imports';
 
   export default defineComponent({
     setup() {

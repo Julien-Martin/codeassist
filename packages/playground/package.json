@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "play": "nuxt",
-    "play:build": "nuxt build",
-    "play:start": "nuxt start",
-    "play:generate": "nuxt generate"
+    "play": "nuxi dev",
+    "play:build": "nuxi build",
+    "play:start": "nuxi start",
+    "play:generate": "nuxi generate"
   },
   "dependencies": {
-    "core-js": "^3.15.1",
-    "nuxt": "^2.15.7",
-    "@nuxtjs/composition-api": "^0.31.0",
-    "codeassist": "0.0.1"
+    "codeassist": "0.0.1",
+    "nuxt-edge": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge"
+  }
 }

@@ -30,6 +30,11 @@ export function setupDevtools (app: DevtoolApp) {
       icon: 'bug_report'
     })
 
+    api.on.visitComponentTree((payload, context) => {
+      // const node = payload.treeNode
+      console.log(payload.componentInstance)
+    })
+
     api.on.inspectComponent((payload, context) => {
       console.log('payload', payload)
       console.log('context', context)

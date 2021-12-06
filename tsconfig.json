@@ -8,6 +8,7 @@
     "packages/test-vue-2",
     "packages/codeassist/__tests__/test-utils.ts"
   ],
+  "extends": "./packages/playground/.nuxt/tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": ".",
