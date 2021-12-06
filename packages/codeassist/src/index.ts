@@ -48,4 +48,5 @@ export function createCodeassist() {
       }
     }
   })
+  return codeassist
 }

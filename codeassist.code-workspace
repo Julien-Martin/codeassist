@@ -1,21 +1,21 @@
 {
-	"folders": [
-		{
-			"name": "✨ @codeassist/root",
-			"path": "."
-		},
-		{
-			"name": "📦 codeassist",
-			"path": "packages/codeassist"
-		},
-		{
-			"name": "📦 @codeassist/nuxt",
-			"path": "packages/nuxt"
-		},
-		{
-			"name": "📦 @codeassist/nuxt2-playground",
-			"path": "packages/nuxt2-playground"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "name": "✨ @codeassist/root",
+      "path": "."
+    },
+    {
+      "name": "📦 codeassist",
+      "path": "packages/codeassist"
+    },
+    {
+      "name": "📦 @codeassist/nuxt",
+      "path": "packages/nuxt"
+    },
+    {
+      "name": "📦 @codeassist/playground",
+      "path": "packages/playground"
+    }
+  ],
+  "settings": {}
 }

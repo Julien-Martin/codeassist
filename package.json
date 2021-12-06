@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "play": "lerna run play"
+    "play": "lerna run play --scope @codeassist/playground"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
